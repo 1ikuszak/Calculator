@@ -3,7 +3,9 @@ import Calculator from './calculator'
 
 const App = () => {
     return (
-        <Calculator/>
+        <div className='app'>
+            <Calculator/>
+        </div>
     )
 }
 
